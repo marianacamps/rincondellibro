@@ -1,0 +1,79 @@
+/*BANNER - ESTILO DEL KIT DE LE WAGON*/
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 350px 0;
+  margin-top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 47px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.banner p {
+  font-size: 35px;
+  color: black;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* ESTILO DE FUENTE SECCIÓN BIENVENIDOS */
+
+.bienvenidos {
+  font-size: 2vw;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+}
+ /* MEDIDAS DE LAS TAPAS DE LOS LIBROS SECCIÓN DESTACADOS */
+
+ .medidas {
+ 	height: 210px;
+ 	width: 150px;
+ }
+
+   /* FOOTER - DISEÑO DE LE WAGON */
+
+  .footer {
+  	font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 50px;
+    color: whitesmoke;
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: white;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
+
+  @media (max-width: 768px) {
+
+  .footer {
+  	display: flex;
+ 	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+  }
+}
